@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Information Form</title>
+<style type="text/css">
+
+   body{
+    background-color: gray;
+   }
+    table {
+        width: 350px;
+        background-color: hotpink;
+        border: 2px solid black;
+        /*justify-content: center;*/
+        margin-top: 200PX;
+        padding: 20px;
+        border-radius: 10px;
+    }
+    input{
+        padding: 5px;
+        border-radius: 1px;
+    }
+    label{
+        font-style:inherit;
+        font-size: 18px;
+        
+    }
+</style>
+
+</head>
+<body>
+    <form action="returnpython.py" method="post" >
+        <table align="center" >
+             <tr>
+                <td colspan="2" align="center"><h2>Books Information Form</h2></td>
+            </tr>
+            <tr>
+                <td><label for="BookID">Book ID:</label></td>
+                <td><input type="text" id="BookID" name="BookID" required></td>
+            </tr>
+            <tr>
+                <td><label for="StudentName">Student Name:</label></td>
+                <td><input type="text" id="StudentName" name="StudentName" required></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="submit" value="Submit" id="submit"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

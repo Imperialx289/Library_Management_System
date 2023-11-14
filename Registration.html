@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Admin Details</title>
+	<style type="text/css">
+
+		body{
+		margin:0px;
+		padding:0px;
+		font-family: Arial, sans-serif;
+        background-color: lightblue;
+	}
+
+	#form{
+	    width: 350px;
+        background-color: hotpink;
+        border: 2px solid black;
+        /*justify-content: center;*/
+        margin-top: 200PX;
+        margin-left: 450px;*/
+        padding: 20px;
+        border-radius: 10px;
+        font-size: 20px;
+	}
+	
+	input{
+        padding: 5px;
+        border-radius: 1px;
+    }
+	
+	</style>
+</head>
+<body>
+<div id="form">
+<form action="registrationpython.py" method="get">
+	<table align="center">
+		<tr>
+			<td>Admin ID:</td>
+			<td><input type="number" id="Id" name="Id" placeholder="10"></td>
+		</tr>
+		<tr>
+			<td>Admin name:</td>
+			<td><input type="text" id="name" name="name" placeholder="Satyam"></td>
+		</tr>
+
+		<tr>
+			<td>Admin Contact:</td>
+			<td><input type="number" name="Contact" placeholder="90823012"></td>
+		</tr>
+		<tr>
+			<td>Admin Address:</td>
+			<td><input type="text" id="Address" name="Address" placeholder="Asagaon"></td>
+		</tr>
+		<tr>
+			<td colspan=2 align="center"><input type="submit" placeholder="Submit"></td>
+			
+		</tr>
+	</table>
+</form>
+</div>
+</body>
+</html>
